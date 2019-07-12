@@ -2,7 +2,7 @@
 //run docker build
 properties([disableConcurrentBuilds()])
 
-pipline {
+pipeline {
 	agent {
 	labal 'master'
 	}
